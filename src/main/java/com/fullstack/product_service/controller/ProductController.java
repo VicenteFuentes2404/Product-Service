@@ -15,7 +15,7 @@ import com.fullstack.product_service.model.Product;
 import com.fullstack.product_service.service.ProductService;
 
 @RestController
-@RequestMapping("/productos")
+@RequestMapping("/productos/")
 public class ProductController {
     @Autowired ProductService svc;
 
